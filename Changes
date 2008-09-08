@@ -1,0 +1,7 @@
+Revision history for Perl extension VisualDreams::Yubikey::online
+
+0.01  Sun Sep 07 21:11:09 2008
+	- original version; created by Gunther Voet
+
+0.03  Mon Sep 08 12:00:00 2008
+        - STRICT fixed everything, ready for release!
