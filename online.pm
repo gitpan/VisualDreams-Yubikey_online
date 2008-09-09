@@ -1,6 +1,6 @@
 package VisualDreams::Yubikey::online;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use warnings;
 use strict;
@@ -9,6 +9,11 @@ use Digest::HMAC_SHA1 qw(hmac_sha1);
 require LWP::Simple;
 require MIME::Base64;
 require URI::Escape;
+
+
+use LWP::Simple;
+use MIME::Base64;
+use URI::Escape;
 
 =head1 NAME
           
@@ -21,7 +26,7 @@ in a HASH. This module is to be implemented in the VisualDreams engine.
                          
 =head1 VERSION
 
-Version 0.03
+Version 0.04
 
 =head1 SYNOPSIS
         
